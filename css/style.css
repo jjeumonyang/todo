@@ -1,0 +1,174 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.bg-gradient {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.65;
+}
+
+img {
+  z-index: -4;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin: 60px 0;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+form {
+  text-align: center;
+}
+
+.name-input {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  margin: auto 0;
+  width: 330px;
+  height: 60px;
+  border: none;
+  border-bottom: 3px solid #fff;
+  padding: 15px 20px;
+  background-color: transparent;
+}
+
+.name-input::placeholder {
+  font-family: "Noto Sans KR", sans-serif;
+
+  font-size: 24px;
+  color: #fff;
+}
+
+.name-input:focus::placeholder {
+  color: transparent;
+}
+
+.name-input:focus {
+  outline: none;
+}
+
+#greeting {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+#login-form div {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 12px;
+}
+
+#login-form div button {
+  transform: translateX(-40px);
+}
+
+.btn {
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: none;
+}
+
+.btn span {
+  display: flex;
+  font-size: 32px;
+  color: #fff;
+}
+
+#todo-form {
+  margin: 30px 0;
+}
+
+#todo-form input {
+  font-size: 16px;
+  color: #fff;
+  box-sizing: border-box;
+  margin: auto 0;
+  width: 330px;
+  height: 60px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+}
+
+#todo-form input::placeholder {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+#todo-form input:focus::placeholder {
+  color: transparent;
+}
+
+#todo-form input:focus {
+  outline: none;
+}
+
+#todo-list {
+  margin: 0 auto;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+li {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+li button {
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+li button span {
+  display: flex;
+  font-size: 32px;
+  color: #fff;
+}
+
+#weather {
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+/* Hide Element */
+.hidden {
+  display: none;
+}
